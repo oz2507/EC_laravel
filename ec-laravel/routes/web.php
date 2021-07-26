@@ -11,4 +11,4 @@
 |
 */
 
-Route::get('/product', 'ProductController@index')->name('product.index');
+Route::get('/', 'ProductController@index')->name('product.index');
